@@ -26,4 +26,6 @@ parser.close()
 
 print(parser.links)
 
-#print(feed)
+responsePath = "parse"
+
+print(os.path.join(os.path.dirname(__file__), responsePath))
