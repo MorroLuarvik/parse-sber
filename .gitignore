@@ -1,5 +1,7 @@
 .vscode
 .idea
+
 *.pyc
+__pycache__
 parse/
 download/
