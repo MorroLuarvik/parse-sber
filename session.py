@@ -52,7 +52,7 @@ parser.close()
 for link in parser.links:
     partName = link[-2:] + '.js'
     response = session.get(root_url + link)
-    if (response.status_code != 200):
+    if response.status_code != 200:
             print("Load part", partName)
             exit()
 

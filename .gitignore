@@ -1,1 +1,5 @@
 .vscode
+.idea
+*.pyc
+parse/
+download/
